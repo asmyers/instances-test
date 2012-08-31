@@ -10,7 +10,7 @@ people = [ Person "Beta" "Zulu",
            Person "Charlie" "Whiskey"]
 
 main = do
-   print "Sort by first:"
+   putStrLn "Sort by first:"
    print $ sortByFirst people
-   print "Sort by Last:"
+   putStrLn "Sort by Last:"
    print $ sortByLast people
